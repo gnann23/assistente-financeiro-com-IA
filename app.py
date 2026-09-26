@@ -1,6 +1,5 @@
 """
 
-
 Funcionalidades:
     - FAQ inteligente sobre produtos financeiros (conta, cartão, empréstimo,
       investimentos, Pix)
