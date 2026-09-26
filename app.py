@@ -1,13 +1,5 @@
 """
-Assistente Financeiro IA — Experiência digital de relacionamento financeiro
-=============================================================================
 
-Desafio final: uma experiência conversacional guiada por IA generativa,
-aplicando boas práticas de UX, para apoiar clientes de uma instituição
-financeira. O assistente entende a intenção da mensagem do usuário
-(compreensão de linguagem natural), responde de forma contextualizada,
-lembra do que já foi dito na conversa (persistência de contexto) e realiza
-simulações financeiras simples e seguras.
 
 Funcionalidades:
     - FAQ inteligente sobre produtos financeiros (conta, cartão, empréstimo,
@@ -34,10 +26,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 # =============================================================================
 # 1. BASE DE CONHECIMENTO — INTENÇÕES E EXEMPLOS DE FRASES (NLU)
 # =============================================================================
-# Cada intenção tem frases de exemplo. O modelo de similaridade (TF-IDF +
-# cosseno) compara a mensagem do usuário com essas frases para descobrir
-# qual é a intenção mais provável — uma forma simples e transparente de
-# "compreensão de linguagem natural", sem depender de serviços externos.
 
 EXEMPLOS_INTENCAO = {
     "saudacao": [
